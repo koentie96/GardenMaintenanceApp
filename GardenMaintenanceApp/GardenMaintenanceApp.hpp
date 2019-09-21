@@ -1,0 +1,8 @@
+#ifndef APP_HPP
+#define APP_HPP
+
+#define VERSION_NUMBER_MAJOR		1
+#define VERSION_NUMBER_MINOR		0
+#define VERSION_NUMBER_BUILDNR		2109
+
+#endif
