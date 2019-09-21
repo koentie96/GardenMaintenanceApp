@@ -19,4 +19,3 @@ int _tmain(int argc, _TCHAR* argv[])
 	getchar(); // hold console window
 	return 0;
 }
-
