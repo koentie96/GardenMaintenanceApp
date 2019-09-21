@@ -31,3 +31,14 @@ void CArea::SetPlantable(bool isItPlantable)
 {
 	m_plantable = isItPlantable;
 }
+
+int CArea::CalculateAreaByOutlinePoints() const
+{
+	int totalArea = 0;
+	if(m_outlinePoints.size() >= AreaDefines::MinNumberOfPointsInArea)
+	{
+		// calculate total area...
+		// https://m.wikihow.com/Calculate-the-Area-of-a-Polygon
+	}
+	return totalArea;
+}
