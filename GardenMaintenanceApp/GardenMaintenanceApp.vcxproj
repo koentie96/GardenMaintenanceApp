@@ -83,10 +83,12 @@
     <ClInclude Include="GardenMaintenanceApp.hpp" />
     <ClInclude Include="Period.hpp" />
     <ClInclude Include="Plant.hpp" />
+    <ClInclude Include="PlantList.hpp" />
     <ClInclude Include="Point.hpp" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="Task.hpp" />
+    <ClInclude Include="TaskList.hpp" />
     <ClInclude Include="Zone.hpp" />
   </ItemGroup>
   <ItemGroup>
@@ -94,12 +96,14 @@
     <ClCompile Include="GardenMaintenanceApp.cpp" />
     <ClCompile Include="Period.cpp" />
     <ClCompile Include="Plant.cpp" />
+    <ClCompile Include="PlantList.cpp" />
     <ClCompile Include="Point.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="Task.cpp" />
+    <ClCompile Include="TaskList.cpp" />
     <ClCompile Include="Zone.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

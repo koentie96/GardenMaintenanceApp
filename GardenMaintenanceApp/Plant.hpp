@@ -3,7 +3,7 @@
 
 #include <string>
 #include <list>
-#include "Task.hpp"
+#include "TaskList.hpp"
 #include "Period.hpp"
 
 #define COLOR int
@@ -14,11 +14,23 @@ class CPlant
 		std::string m_name;
 		COLOR m_color;
 		CPeriod m_bloomPeriod;
-		std::list<CTask> m_taskList;
+		CTaskList m_taskList;
 		int height;
 		int width;
 	public:
 		CPlant();
+		std::string GetName() const;
+		void SetName(std::string);
+		COLOR GetColor() const;
+		void SetColor(COLOR);
+		CPeriod GetBloomPeriod() const;
+		void SetBloomPeriod(CPeriod);
+		CTaskList& GetTaskList() const;
+		void SetTaskList(CTaskList);
+		int GetHeight() const;
+		void SetHeight(int);
+		int GetWidth() const;
+		void SetWidth(int);
 };
 
 #endif //!PLANT_HPP

@@ -45,6 +45,12 @@
     <ClInclude Include="Period.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="TaskList.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlantList.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -69,6 +75,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Period.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlantList.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
