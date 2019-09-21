@@ -12,6 +12,6 @@
 
 #define VERSION_NUMBER_MAJOR		1
 #define VERSION_NUMBER_MINOR		0
-#define VERSION_NUMBER_BUILDNR		2109
+#define VERSION_NUMBER_BUILDNR		2109	// use date as build nr for now
 
 #endif

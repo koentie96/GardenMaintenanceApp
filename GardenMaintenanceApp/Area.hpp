@@ -5,6 +5,10 @@
 #include "Point.hpp"
 
 #define COLOR int
+enum AreaDefines
+{
+	MinNumberOfPointsInArea = 3
+};
 
 class CArea
 {
@@ -21,6 +25,7 @@ class CArea
 		void SetId(int);
 		bool IsPlantable() const;
 		void SetPlantable(bool);
+		int CalculateAreaByOutlinePoints() const;
 };
 
 #endif //!AREA_HPP
